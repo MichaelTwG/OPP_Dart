@@ -97,3 +97,33 @@ Alice, ID: 1001, Dept: HR
 ```
 ---
 
+## Sobrescritura de Métodos y Uso de `super`
+
+**Tarea:** Mostrar cómo una subclase puede sobrescribir un método de su superclase y aún así acceder al comportamiento original usando `super`.
+
+### Requisitos
+
+#### Clase Animal
+
+- Método: `makeSound()` → prints `"Some generic animal sound"`.
+
+#### Clase Dog
+
+- Hereda de `Animal`.
+- Sobrescribe `makeSound()` → imprime `First call `super.speak() then print "Woof!"`.
+
+### Entrada esperada
+
+```dart
+void main() {
+  Dog myDog = Dog();
+  myDog.makeSound();
+}
+```
+
+### Salida esperada
+
+```dart
+Some generic animal sound
+The animal makes a sound
+```
