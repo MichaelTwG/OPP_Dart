@@ -61,3 +61,39 @@ Inherited property: Generic Vehicle
 Calling inherited method:
 This is a Generic Vehicle
 ```
+---
+
+## Encadenamiento de Constructores con `super`
+
+**Obligatorio**  
+**Tarea:** Modelar una relación entre `Employee` y `Manager`, donde la clase hija utiliza `super` para invocar el constructor de la clase padre.
+
+### Requisitos
+
+#### Clase Employee
+
+- Campos: `String name`, `int id`  
+- Constructor: `Employee(this.name, this.id)`
+
+#### Clase Manager
+
+- Hereda de `Employee`  
+- Agrega un nuevo campo: `String department`  
+- Constructor: utiliza `super` para pasar `name` e `id`
+
+### Entrada esperada
+
+```dart
+void main() {
+  Manager mgr = Manager('Alice', 1001, 'HR');
+  print('${mgr.name}, ID: ${mgr.id}, Dept: ${mgr.department}');
+}
+```
+
+### Salida esperada
+
+```dart
+Alice, ID: 1001, Dept: HR
+```
+---
+
