@@ -1,3 +1,7 @@
+# Object Oriented Programin in Dart
+
+**Nota:** Todos los archivos con la resolucion de las tareas estan dento de la carpeta `bin`
+
 ## Subclasificación con `extends`
 **Tarea:** Crear una jerarquía de clases con una superclase `Vehículo` y una subclase `Auto`.
 
