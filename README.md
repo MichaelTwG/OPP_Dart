@@ -2,7 +2,7 @@
 
 ## Clases y Objetos
 
- *Introducción y Contexto*
+ **Introducción y Contexto**
 Este proyecto introduce a los estudiantes en los conceptos fundamentales de la Programación Orientada a Objetos (POO) utilizando la arquitectura basada en clases de Dart.
 La capacidad de modelar entidades del mundo real mediante clases y crear instancias de esas clases (objetos) es esencial para diseñar software estructurado y fácil de mantener.
 
@@ -132,16 +132,9 @@ void main() {
 Timer started for 10 seconds.
 ```
 
----
-
-Perfecto ✅
-Aquí tienes el README con la nueva sección **Inheritance**, introducción y las tareas empezando desde **0** nuevamente:
-
----
-
 ## Inheritance
 
-*Introducción y Contexto*
+**Introducción y Contexto**
 La **herencia** es un principio central de la Programación Orientada a Objetos (POO) que permite la reutilización de código y el modelado lógico de relaciones del mundo real.
 En Dart, la herencia permite a los desarrolladores crear una nueva clase basada en una ya existente, heredando sus atributos y comportamientos, y agregando o modificando características según sea necesario.
 
@@ -260,7 +253,7 @@ Woof!
 
 ## Polimorfismo
 
-*Introducción y Contexto*
+**Introducción y Contexto**
 El polimorfismo es un principio clave en la programación orientada a objetos que permite tratar objetos de diferentes tipos mediante una interfaz común.
 En Dart, el polimorfismo ofrece flexibilidad al permitir que las clases implementen comportamientos compartidos mediante la herencia o interfaces, mientras que la ejecución del método real se determina dinámicamente en tiempo de ejecución.
 
@@ -433,7 +426,7 @@ Meow!
 
 ## Encapsulación y Abstracción
 
-*Introducción y Contexto*
+**Introducción y Contexto**
 La encapsulación y la abstracción son esenciales para manejar la complejidad del software y asegurar su mantenimiento a largo plazo.
 La encapsulación protege el estado interno de los objetos restringiendo el acceso directo a los campos y forzando interacciones controladas mediante métodos o accesores.
 La abstracción permite a los desarrolladores exponer solo los componentes necesarios de un sistema, simplificando su uso y ocultando detalles de implementación.
@@ -568,15 +561,9 @@ Name not set
 Alice
 ```
 
----
-
-Claro, aquí tienes el proyecto **Smart Home Simulation System** traducido y en formato README para que puedas agregarlo directamente a tu repositorio o documentación:
-
----
-
 ## Sistema de Simulación de Casa Inteligente
 
-*Introducción y Contexto*
+**Introducción y Contexto**
 
 En este proyecto final, los estudiantes diseñarán e implementarán un sistema simplificado de Casa Inteligente utilizando las capacidades orientadas a objetos de Dart.
 El sistema modela dispositivos inteligentes como termostatos, luces y alarmas, permitiendo gestionarlos a través de una interfaz unificada.
